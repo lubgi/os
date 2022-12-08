@@ -24,6 +24,7 @@ int main (){
     {
         struct thread_arg targ;
         pthread_t thread;
+        char buf[15];
         targ.i = i;
         
         
